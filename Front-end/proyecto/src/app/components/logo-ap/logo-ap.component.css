@@ -1,0 +1,38 @@
+.container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#logoAP{
+width: 150px;
+}
+
+img{
+    width: 50px;
+}
+
+.redes{
+    margin-right: 0.5em;
+}
+
+.btn{
+    border-width: medium;
+}
+
+/*Vista del celular*/
+@media(max-width:575px){
+    .container{
+        flex-direction: column;
+    }
+    
+    .redes{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    
+    .redes img{
+        margin: 0.2em;
+    }
+}
